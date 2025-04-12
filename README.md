@@ -6,8 +6,9 @@
 
 ## Overview
 
-**GRPO-LEAD** (**GRPO** with **L**ength-dependent rewards, **E**xplicit penalties, and **A**dvantage reweighting for **D**ifficulty) is a reinforcement learning pipeline for fine-tuning LLMs for more concise and accurate reasoning in mathematical tasks.**
-**Our work builds upon and extends the [DeepScaler](https://github.com/agentica-project/rllm) framework — many of our components, including data preprocessing and training scripts, are adapted or extended from it.
+**GRPO-LEAD** (**GRPO** with **L**ength-dependent rewards, **E**xplicit penalties, and **A**dvantage reweighting for **D**ifficulty) is a reinforcement learning pipeline for fine-tuning LLMs for more concise and accurate reasoning in mathematical tasks.
+
+**Our work builds upon and extends the [DeepScaler](https://github.com/agentica-project/rllm) framework — many of our components, including data preprocessing and training scripts, are adapted or extended from it.**
 ![image-20250412005231869](./figrue/validation_trend.png)
 
 **Figure 1**: Validation Pass@1 over training steps for three configurations: GRPO, GRPO with length reward, and GRPO with length reward plus advantage reweighting.
