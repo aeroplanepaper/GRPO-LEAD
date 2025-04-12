@@ -37,7 +37,7 @@ pip install -e .
 **Raw training data is in the directory:**
 
 ```
-grpo-lead/data/[train|test]/
+grpo-lead/data/train/
 ```
 
 **The data preprocessing notebook is located at, you can process the dataset on your own:**
