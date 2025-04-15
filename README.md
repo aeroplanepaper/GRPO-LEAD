@@ -74,3 +74,19 @@ We evaluate our model with AIME24/25,  all evaluation are conducted with 14k max
 | **Light-R1-14B** | 0.833              | 0.641              | 9571               | 0.767              | 0.505              | 10194              |
 | **LEAD-14B-stage1**  | 0.833              | 0.629              | 8790               | 0.767              | 0.523              | 9371               |
 | **LEAD-14B-stage3**  | 0.867              | 0.650              | 8267               | 0.767              | 0.539              | 8668               |
+
+## Citation 📖
+
+If you find our work useful, please cite it as:
+
+```bibtex
+@misc{zhang2025grpoleaddifficultyawarereinforcementlearning,
+      title={GRPO-LEAD: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models}, 
+      author={Jixiao Zhang and Chunsheng Zuo},
+      year={2025},
+      eprint={2504.09696},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.09696}, 
+}
+```
