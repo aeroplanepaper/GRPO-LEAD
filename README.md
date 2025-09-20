@@ -8,6 +8,9 @@
 
 </div>
 
+**News (Sep 2025):** Our paper **“GRPO‑LEAD: A Difficulty‑Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models”** was **accepted to EMNLP 2025 (Main Conference)** 🎉.
+
+---
 
 ## Overview
 
@@ -90,13 +93,11 @@ We evaluate our model with AIME24/25,  all evaluation are conducted with 14k max
 If you find our work useful, please cite it as:
 
 ```bibtex
-@misc{zhang2025grpoleaddifficultyawarereinforcementlearning,
-      title={GRPO-LEAD: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models}, 
-      author={Jixiao Zhang and Chunsheng Zuo},
-      year={2025},
-      eprint={2504.09696},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.09696}, 
+@article{zhang2025grpo,
+  title={GRPO-LEAD: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models},
+  author={Zhang, Jixiao and Zuo, Chunsheng},
+  journal={arXiv e-prints},
+  pages={arXiv--2504},
+  year={2025}
 }
 ```
