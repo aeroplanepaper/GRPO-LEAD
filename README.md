@@ -93,11 +93,23 @@ We evaluate our model with AIME24/25,  all evaluation are conducted with 14k max
 If you find our work useful, please cite it as:
 
 ```bibtex
-@article{zhang2025grpo,
-  title={GRPO-LEAD: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models},
-  author={Zhang, Jixiao and Zuo, Chunsheng},
-  journal={arXiv e-prints},
-  pages={arXiv--2504},
-  year={2025}
+@inproceedings{zhang-zuo-2025-grpo,
+    title = "{GRPO}-{LEAD}: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models",
+    author = "Zhang, Jixiao  and
+      Zuo, Chunsheng",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.287/",
+    doi = "10.18653/v1/2025.emnlp-main.287",
+    pages = "5642--5665",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Group Relative Policy Optimization (GRPO), which is widely adopted by R1-like reasoning models, has advanced mathematical reasoning. Nevertheless, GRPO faces challenges in reward sparsity, verbosity, and inadequate focus on problem difficulty. We propose GRPO-LEAD, enhancing GRPO with: (1) length-regularized rewards to encourage conciseness while maintaining accuracy; (2) explicit penalties for incorrect solutions to improve model precision; and (3) difficulty-aware advantage reweighting for robust generalization on challenging problems. Comprehensive evaluations demonstrate that GRPO-LEAD significantly improves reasoning accuracy, conciseness, and efficiency. Our approach achieves state-of-the-art performance for 14B-scale models, underscoring the synergy of our methods with appropriate model scale and high-quality data. Our source code, generated dataset, and models are available at https://github.com/aeroplanepaper/GRPO-LEAD."
 }
 ```
